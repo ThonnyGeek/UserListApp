@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct UserListAppApp: App {
+    
+    @State var userDataObject: UserDataObject = UserDataObject()
+    @State var networkError: NetworkError = NetworkError()
+    
     var body: some Scene {
         WindowGroup {
-            UserListView()
+            UserListView(viewModel: UserListViewModel(userListService: UserListService()))
+                .environmentObject(userDataObject)
+                .environmentObject(networkError)
         }
     }
 }

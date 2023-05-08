@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  UserListApp
+
+  Created by Thony Gonzalez on 7/05/23.
+  
+*/
+
+"Name: " = "Nombre: ";
+"Website: " = "Sitio web: ";
+"Zipcode: " = "Código postal: ";
+"Email: " = "Correo: ";
+"Suite: " = "Apartamento: ";
+"User detail" = "Detalle del usuario";
+"Street: " = "Calle: ";
+"City: " = "Ciudad: ";
+"Phone: " = "Teléfono: ";
+"Company name: " = "Nombre de empresa: ";
+"Network error" = "Error en conexion";
+"Retry" = "Reintentar";
